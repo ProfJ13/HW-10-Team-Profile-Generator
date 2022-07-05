@@ -1,0 +1,26 @@
+{
+  "name": "hw-10-team-profile-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProfJ13/HW-10-Team-Profile-Generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ProfJ13/HW-10-Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/ProfJ13/HW-10-Team-Profile-Generator#readme",
+  "dependencies": {
+    "inquirer": "^9.0.0",
+    "jest": "^28.1.2"
+  }
+}
