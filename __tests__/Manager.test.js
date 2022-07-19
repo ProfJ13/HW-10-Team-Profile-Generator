@@ -21,7 +21,7 @@ describe("Manager", () => {
                    const manager = new Manager("Alice", 1, "test@test.com", officeNumber);
                    const managerOfficeNumber = manager.getOffice();
                    // Assert
-                   expect(manager.officeNumber).toBe(officeNumber);
+                   expect(managerofficeNumber).toBe(officeNumber);
         });
 
         it("should get role via getRole()", () => {
