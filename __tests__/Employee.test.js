@@ -74,7 +74,7 @@ describe("Employee", () => {
 
         it("should get role via getRole()", () => {
             // Arrange
-            const name = "Employee";
+            const role = "Employee";
             // Act
             const employee = new Employee("Alice", 100, "test@test.com");
             const employeeRole = employee.getRole()
