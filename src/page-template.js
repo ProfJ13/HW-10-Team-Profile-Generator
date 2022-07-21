@@ -1,12 +1,20 @@
 function renderManager(manager) {
-    return `manager`;
-}
+    const markup = manager.map((manager => {
+        return `
+        `
+    }))}
 function renderEngineers(engineers) {
-    return `engineer`;
+    const markup = engineers.map((engineer => {
+        return `
+        `
+    }))
 }
+
 function renderInterns(interns) {
-    return `intern`;
-}
+    const markup = intenrs.map((intern => {
+        return `
+        `
+    }))}
 
 function generateTeam(teamMembers) {
     return `
